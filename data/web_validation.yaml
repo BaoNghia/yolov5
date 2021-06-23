@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/YOLO/dataset-web-validation/train.txt
+val: /content/drive/MyDrive/YOLO/dataset-web-validation/val.txt
+test: /content/drive/MyDrive/YOLO/dataset-web-validation/val.txt
+ 
+# number of classes
+nc: 1
+
+# class names
+names: [ 'thumbnail', ]
+
+# python train.py --data data/web_validation.yaml --cfg models/yolov5l.yaml --weights models/yolov5l.pt --cache-images --multi-scale --epochs 50 --batch-size 8 --img-size 672
+# --project runs/train
+
